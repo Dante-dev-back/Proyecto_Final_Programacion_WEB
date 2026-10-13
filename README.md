@@ -4,14 +4,14 @@ Plataforma web de rescate y pedido de alimentos, desarrollada como proyecto acad
 
 ## Tecnologías
 
-HTML, CSS, JavaScript, Node.js, PostgreSQL
+HTML, CSS, JavaScript, Node.js, MySQL, PostgreSQL
 
 ## Mi participación
 
 - Desarrollé la página de pedidos (HTML, CSS responsive y JavaScript).
 - Consumí la API REST con `fetch` (async/await) para listar los pedidos del usuario en una tabla dinámica, con estados visuales y actualización automática cada 30 segundos.
 - Implementé la cancelación de pedidos con modal de confirmación, validación de sesión y de estado, y manejo de errores.
-- Diseñé el modelo de datos relacional inicial (6 tablas: usuarios, categorías, productos, pedidos, detalle de pedidos y ofertas) con claves foráneas y datos de prueba.
+- Diseñé el modelo de datos relacional inicial en MySQL (6 tablas: usuarios, categorías, productos, pedidos, detalle de pedidos y ofertas) con claves foráneas y datos de prueba. Posteriormente, el equipo lo migró a PostgreSQL.
 
 ## Repositorio del equipo
 
